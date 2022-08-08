@@ -1,0 +1,190 @@
+
+/*@media (max-width: 858px) {
+
+
+
+
+
+ 
+ 
+} */
+
+
+
+
+/*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Monospace;
+  LTRB
+  
+} */
+
+
+@media (min-width: 800px) {
+  
+  .cover1{
+  
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+  }
+
+  .cover2{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    margin-right: 140px;
+  }
+
+.heading{
+
+line-height:0.5;
+text-align: center ;
+width: 100%;
+font-size: 25px ;
+
+}
+
+ul{
+list-style-image:url('mark.svg');
+font-size: px;
+}
+
+li{
+  line-height: 2.6;
+
+  
+}
+
+
+
+
+
+
+.me{
+  border: solid #d2e1e5 ;
+ background-color:#f3f4f5;
+ border-radius:15px; 
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+ padding:60px;
+ width:190px ;
+ height:450px;
+ margin: 250px 2.5px  0 2.5px ;
+ 
+}
+
+/*hover the whole card but change button hover color */
+/*.me:hover{
+  background-color: rgb(0, 38, 255);
+  color: #d2e1e5;
+}*/
+
+
+
+.buttone{
+  border-radius:7px;
+  Border:1px solid blue ;
+  Padding:18px;
+  margin-right: auto ;
+  
+  display: block;
+  background-color: #ffffff;
+  width: 90%;
+  color: blue;
+} 
+
+
+.buttone:hover{
+
+background-color: rgb(42, 5, 252);
+color: #d2e1e5;
+
+
+
+}
+
+a{
+  text-decoration: none;
+}
+
+} 
+
+
+@media (max-width: 758px) {
+  
+
+*{
+  font-family: Monospace;
+}
+
+
+
+.heading{
+
+line-height:0.5;
+width: 100%;
+
+
+}
+
+ul{
+list-style-image:url('mark.svg');
+font-size: px;
+}
+
+li{
+  line-height: 2.6;
+
+  
+}
+
+
+
+
+
+
+.me{
+
+  border: solid #d2e1e5 ;
+ background-color:#f3f4f5;
+ border-radius:15px; 
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   padding: 30px ;
+   width: 220px ;
+   margin: auto ;
+   height: 400px ;
+   font-size: 14px ;
+ 
+ 
+ 
+ 
+}
+
+
+
+
+
+.buttone{
+  border-radius:7px;
+  Border:1px solid blue ;
+  Padding:18px;
+  margin-right: auto ;
+  margin-left: auto;
+  display: block;
+  background-color:#f3f4f5;
+  width: 90%;
+  color: blue;
+} 
+
+a{
+  text-decoration: none;
+}
+
+} 
+
+
